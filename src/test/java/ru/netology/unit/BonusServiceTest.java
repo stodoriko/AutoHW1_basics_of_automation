@@ -17,12 +17,12 @@ public class BonusServiceTest {
     }
 
     @Test
-    public void shouldReturn1000() {
+    public void shouldReturn0() {
         CashbackHackService chs = new CashbackHackService();
         int actual = chs.remain(1000);
         System.out.println("Осталось докупить на " + actual);
 
-        int expected = 1000;
+        int expected = 0;
 
         Assert.assertEquals(actual, expected);
     }
