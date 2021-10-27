@@ -3,7 +3,7 @@ package ru.netology.unit;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class BonusServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
     public void shouldShowHowMuchToBuy() {
