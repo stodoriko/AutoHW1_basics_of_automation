@@ -3,7 +3,7 @@ package ru.netology.unit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class BonusServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
     public void shouldShowHowMuchToBuy() {
